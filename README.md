@@ -19,3 +19,15 @@ Math.round(difference * 1000) / 1000 / 5 // 5
 So some of the rounding might be slightly off due to float precision, but the tests are using pretty straight-forward numbers so it shouldn't be an issue.
 
 ### See if you can get the tests to pass.
+
+### To Run
+```
+npm i
+npm test
+```
+This will run all the tests.
+
+To run the tests in `watch` mode:
+```
+test:watch
+```
